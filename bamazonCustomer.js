@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
 
 connection.connect(function(err){
     if (err) throw err;
-    //console.log ("connected!");
+    console.log ("Welcome to Bamazon Store!");
     createTable();
 
 })
@@ -58,7 +58,7 @@ var promptCustomer = function (res){
                              createTable();
                          })
                      } else {
-                         console.log("please slect something else!");
+                         console.log("Insufficient quantity!please slect something else!");
                          promptCustomer(res);
                      }
                  })
