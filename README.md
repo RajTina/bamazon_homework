@@ -37,15 +37,19 @@ If the purchase goes through, it updates the stock quantity to reflect the purch
 It will also update the product sales in the department MySQL database table.
 
 ##Technologies used
+
 Node.js
 Inquire NPM Package (https://www.npmjs.com/package/inquirer)
 MYSQL NPM Package (https://www.npmjs.com/package/mysql)
 
 ###Built With
+
 Visual Studio Code - Text Editor
 MySQL/MySQLWorkbench
 Terminal/Gitbash
 
 ##Author
+
 Tina Azad
+
  #JS/MySQL/Node.js
